@@ -32,18 +32,32 @@
 $ npm install
 ```
 
+## Seed the database
+```bash
+$ npx prisma db seed
+```
+
+## Running the database
+
+```bash
+$ docker compose up
+```
+
 ## Running the app
 
 ```bash
 # development
 $ npm run start
 
-# watch mode
+# watch mode (preferred)
 $ npm run start:dev
 
 # production mode
 $ npm run start:prod
 ```
+
+## Check the swagger
+http://localhost:4000/api#/
 
 ## Test
 
