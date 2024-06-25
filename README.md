@@ -32,7 +32,13 @@
 $ npm install
 ```
 
-## Seed the database
+## Run the migration (and seed the database)
+```bash
+$ npx prisma migrate dev
+```
+
+
+## Seed the database (optional)
 ```bash
 $ npx prisma db seed
 ```
